@@ -6,11 +6,17 @@
 1) Создаем сеть в соответствии с указаниями в практике, на роутерах добавляем плату с разъемами для подключения дополнительных кабелей NM-1FE-TX. 
 2) Через поле Config -> Interface устанавливаем соответствующие приведенным таблицам IP для интерфейсах на всем оборудовании. На PC0 и PC1 в качестве шлюза по умолчанию прописываем 10.9.1.2 (третий роутер)
 3) Запускаем протокол RIP на каждом роутере:
-  Router>en
-  Router#conf t
-  Router(config)#router rip
-  Router(config-router)#version 2
-  Router(config-router)#network <сеть>
+      
+      
+      а.Router>en
+      
+      б.Router#conf t
+      
+      в.Router(config)#router rip
+      
+      г.Router(config-router)#version 2
+      
+      д.Router(config-router)#network <сеть>
 
 ## Результаты
 Роутер 1
